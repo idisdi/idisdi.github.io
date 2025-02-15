@@ -3,10 +3,10 @@
 
 title: Bay Jekyll Theme
 description: Bay is a minimal Jekyll Theme.
-baseurl: "/bay"
-url: "https://eliottvincent.github.io"
+baseurl: '/'
+url: 'https://idisdi.github.io'
 og_image: /assets/img/profile-pic.jpg
-google_analytics: "UA-121636368-3"
+google_analytics: 'UA-121636368-3'
 
 header:
   pages:
@@ -23,24 +23,24 @@ footer:
       value: yourmail@domain.com
     - type: wechat
       value: YourWeChatUsername
-      link: "#"
+      link: '#'
   follow:
     - type: twitter
       name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
+      link:
+      username: '@YourTwitterUsername'
     - type: facebook
       name: Facebook
-      link: http://facebook.com/YourFacebookUsername
+      link:
     - type: linkedin
       name: LinkedIn
       link: http://linkedin.com/in/YourLinkedInUsername
     - type: github
       name: GitHub
-      link: http://github.com/YourGitHubUsername
+      link:
     - type: dribbble
       name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
+      link:
     - type: rss
       name: RSS
       link: /feed.xml
@@ -48,7 +48,7 @@ footer:
 # Build settings
 markdown: kramdown
 sass:
-    style: :compressed
+  style: :compressed
 plugins:
   - jekyll-feed
 
