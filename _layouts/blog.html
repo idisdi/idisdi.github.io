@@ -10,7 +10,7 @@
         <div class="blog">
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
-          <p class="blog-post-list">
+          <div class="blog-post-list">
             {% for post in site.posts %}
               {% if post.draft != true %}
                 <div class="blog-post-item">
@@ -24,7 +24,7 @@
                 </div>
               {% endif %}
             {% endfor %}
-          </p>
+          </div>
         </div>
       </div>
     </div>
