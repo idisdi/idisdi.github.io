@@ -1,5 +1,5 @@
-@use "variables" as variables;
-@use "mixins" as mixins;
+@use 'variables' as variables;
+@use 'mixins' as mixins;
 
 .post-header {
   margin-bottom: variables.$spacing-unit;
@@ -104,4 +104,57 @@ div.footnotes {
   a {
     color: #330000;
   }
+}
+
+.blog-post-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-post-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  @include mixins.media-query(variables.$on-desktop) {
+    width: 48%;
+  }
+}
+
+.blog-post-image {
+  width: 100%;
+  height: 66.66%;
+  object-fit: cover;
+}
+
+.blog-post-info {
+  width: 100%;
+  height: 33.33%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog-post-date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.blog-post-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.blog-post-title:hover {
+  text-decoration: underline;
 }
