@@ -6,9 +6,25 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+Hi, I'm Hyunjeong Lee!
 </p>
 
 <p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+I'm currently working in South Korea as a junior full-stack web developer.
+</p>
+
+<p>
+On the frontend, I mainly work with #React, #JavaScript, #TypeScript, #React Native (Expo).
+</p>
+
+<p>
+On the backend, I use #Java, #Spring Boot, #Node.js. I also dabble in #Python occasionally.
+</p>
+
+<p>
+If you're curious about my work, feel free to check out the below:
+</p>
+
+<p>
+<a href="https://github.com/idisdi">GitHub</a>
 </p>

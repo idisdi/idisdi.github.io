@@ -1,6 +1,6 @@
-@use "variables" as variables;
-@use "mixins" as mixins;
-@use "extends";
+@use 'variables' as variables;
+@use 'mixins' as mixins;
+@use 'extends';
 
 /**
  * Site header
@@ -18,11 +18,22 @@
   }
 }
 
+@font-face {
+  font-family: 'SansSerifFLF-Demibold';
+  src: url('/assets/fonts/SansSerifFLF-Demibold.woff2') format('woff2'),
+    url('/assets/fonts/SansSerifFLF-Demibold.woff') format('woff'),
+    url('/assets/fonts/SansSerifFLF-Demibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .site-title {
   font-size: 26px;
   line-height: 56px;
   letter-spacing: -1px;
   float: left;
+  font-family: 'SansSerifFLF-Demibold', sans-serif;
+  font-weight: 500;
 
   img {
     height: 23px;
@@ -76,7 +87,8 @@
       padding-top: 4px;
       text-align: center;
 
-      background: variables.$color-background url(variables.$base-url + "/assets/img/menu.png") 6px 4px no-repeat;
+      background: variables.$color-background
+        url(variables.$base-url + '/assets/img/menu.png') 6px 4px no-repeat;
       background-size: 26px 26px;
     }
 
