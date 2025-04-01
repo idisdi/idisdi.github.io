@@ -1,6 +1,6 @@
 title: Idris's Blog
 description: This is a Idris's Blog.
-baseurl: ''
+baseurl: '/'
 url: 'https://idisdi.github.io'
 og_image: /assets/img/profile-pic.jpg
 # google_analytics: 'UA-121636368-3'
