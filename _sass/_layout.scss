@@ -2,10 +2,6 @@
 @use 'mixins' as mixins;
 @use 'extends';
 
-* {
-  box-sizing: border-box;
-}
-
 /**
  * Site header
  */
@@ -24,7 +20,9 @@
 
 @font-face {
   font-family: 'SansSerifFLF-Demibold';
-  src: url('../assets/fonts/SansSerifFLF-Demibold.otf') format('otf');
+  src: url('/assets/fonts/SansSerifFLF-Demibold.oft') format('woff2'),
+    url('/assets/fonts/SansSerifFLF-Demibold.woff') format('woff'),
+    url('/assets/fonts/SansSerifFLF-Demibold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
