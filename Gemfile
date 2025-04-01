@@ -6,6 +6,8 @@ source "https://rubygems.org"
 #     bundle exec jekyll serve
 gem "jekyll", "~> 4.3.4"
 
+gem "jekyll-sass-converter"
+
 # Plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"

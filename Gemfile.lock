@@ -158,6 +158,7 @@ DEPENDENCIES
   csv
   jekyll (~> 4.3.4)
   jekyll-feed (~> 0.17)
+  jekyll-sass-converter
   logger
   tzinfo (~> 1.2)
   tzinfo-data
