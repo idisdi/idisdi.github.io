@@ -2,6 +2,10 @@
 @use 'mixins' as mixins;
 @use 'extends';
 
+* {
+  box-sizing: border-box;
+}
+
 /**
  * Site header
  */
