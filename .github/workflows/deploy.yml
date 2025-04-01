@@ -39,6 +39,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
+      - name: Clean Jekyll cache
+        run: bundle exec jekyll clean
+
   deploy:
     environment:
       name: github-pages
