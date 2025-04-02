@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-Hi, I'm Hyunjeong Lee!
+Hi,
 </p>
 
 <p>
