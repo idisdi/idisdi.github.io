@@ -25,3 +25,7 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 gem "base64"
 gem "csv"
 gem "logger"
+
+gem "jekyll-seo-tag", "~> 2.8"
+
+gem "jekyll-sitemap", "~> 1.4"
