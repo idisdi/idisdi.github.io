@@ -1,7 +1,5 @@
 title: Idris's Blog
 description: This is a Idris's Blog.
-baseurl: '/'
-url: 'https://idisdi.github.io'
 og_image: /assets/img/profile-pic.jpg
 # google_analytics: 'UA-121636368-3'
 
@@ -44,12 +42,15 @@ footer:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 sass:
   style: :compressed
   sass_dir: '_sass'
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-sass-converter
 
 # Excluded items
